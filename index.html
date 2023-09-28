@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>calculator</title>
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+           
+            <div class="calculator">
+                <div class="heading">  <h2>Calculator</h2></div>
+                <input class="result" type="text">
+                <div class="buttons">
+                    <div class="bt-1">
+                        <button class="add" onclick="calculate(7)">7</button>
+                        <button class="sub" onclick="calculate(8)">8</button>
+                        <button class="mul" onclick="calculate(9)">9</button>
+                        <button class="div" onclick="operation('+')">+</button>
+                    </div>
+                    <div class="bt-2">
+                        <button class="add" onclick="calculate(4)">4</button>
+                        <button class="sub" onclick="calculate(5)">5</button>
+                        <button class="mul" onclick="calculate(6)">6</button>
+                        <button  style="font-size: 20px;" class="div" onclick="operation('-')">-</button>
+                    </div>
+                    <div class="bt-3">
+                        <button class="add" onclick="calculate(1)">1</button>
+                        <button class="sub" onclick="calculate(2)">2</button>
+                        <button class="mul" onclick="calculate(3)">3</button>
+                        <button class="div" onclick="operation('*')">X</button>
+                    </div>
+                    <div class="bt-4">
+                        <button  class="add reset" onclick="
+                            document.querySelector('.result').value=' '">Reset</button>
+                        <button class="sub" onclick="calculate(0)">0</button>
+                        <button class="mul" onclick="result()">=</button>
+                        <button class="div" onclick="operation('/')">/</button>
+                    </div>
+                </div>
+
+            </div>
+        
+    <script src="script.js"></script>
+    </body>
+    </html>
+</body>
+</html>
